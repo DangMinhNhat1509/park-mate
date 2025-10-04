@@ -11,7 +11,8 @@
     "web": "npx expo start --web",
     "prebuild": "expo prebuild",
     "build" :"expo export:web",
-    "deploy:web": "npx expo export --platform web && vercel --prod"
+    "deploy:web": "npx expo export --platform web && vercel --prod",
+    "dev": "npx expo start --dev-client"
   },
   "dependencies": {
     "@expo/metro-config": "^0.20.17",
